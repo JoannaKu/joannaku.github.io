@@ -19,6 +19,14 @@ body {
 	max-width: 1200px;
 	width: 100%;
 }
+a {
+	color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: #1ebfba;
+    text-decoration: none;
+}
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -336,12 +344,22 @@ h2 {
     text-decoration: none;
     font-size: 30px;
     padding: 10px;
-    text-shadow: 0 2px 6px black;
     cursor: pointer;
-    transition: 2s;
+    transition: 1s;
+}
+.jumbotron .fa {
+	border: 2px solid #1ebfba;
+    padding: 5px;
+    width: 45px;
+    border-radius: 15%;
+    background-color: white;
+    transition: 1s;
 }
 .jumbotron a:hover {
 	color: white;
+}
+.jumbotron a:hover .fa {
+	background-color: #1ebfba;
 }
 /* FOOTER */
 .footer {
