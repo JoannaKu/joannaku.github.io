@@ -4,128 +4,53 @@
 		<meta charset="utf-8">
 		<title>Portfolio</title>
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="style/navigation.css">
 		<link rel="stylesheet" href="style/style.css">
 	</head>
 	<body>
 		<!--NAVIGATION-->
-		<section class="navigation">
-			<nav class="container">
-				<div class="row">
+			<section class="navigation">
+				<nav class="container">
+					<div class="logo">
+						<img src="images/icon.png" alt="icon">
+						<p class="name">Joanna Kuśmider</p>
+						<p class="profession">FRONT-END DEVELOPER</p>
+					</div>
 					<ul>
-						<li><a href="#about-me">ABOUT ME</a></li>
-						<li><a href="#portfolio">PORTFOLIO</a></li>
-						<li><a href="#stay-in-touch">STAY IN TOUCH</a></li>
+						<li><a href="#home">HOME</a></li>
+						<li><a href="https://joannaku.github.io/About-me/" target="_blank">ABOUT-ME</a></li>
+						<li><a href="https://joannaku.github.io/Skills/" target="_blank">SKILLS</a></li>
+						<li><a href="https://joannaku.github.io/Portfolio-projects/" target="_blank">PORTFOLIO</a></li>
+						<li><a href="https://joannaku.github.io/Contact/" target="_blank">STAY IN TOUCH</a></li>
 					</ul>
+				</nav>
+			</section>
+
+		<!--HOME-->
+			<section class="home" id="home">
+				<div class="main-information">
+					<h1>WELCOME TO MY WEBSITE</h1>
+					<h2>Hi, my name is Joanna Kuśmider. I am an ambitious and organized person, interested in new experiences and knowledge. 
+						<br>Topics related to the development of Business Intelligence and the implementation of modern IT solutions to enterprises always seems very interesting to me. During the last year I have been looking for a suitable career path for myself. That's why I decided to try my hand at programming.</h2>
+					<button><a href="https://joannaku.github.io/About-me/" target="_blank">Get to know me</a></button>
 				</div>
-			</nav>
-		</section>
-		<!--HEADER-->
-		<section class="header">
-			<div class="container author row">
-				<div class="col-7">
-					<h1><b>Joanna Kuśmider</b></h1>
+				<div class="gallery">
+					<div class="main-picture"></div>
+					<div class="picture picture1"></div>
+					<div class="picture picture2"></div>
+					<div class="picture picture3"></div>
+					<div class="picture picture4"></div>
+					<div class="picture picture5"></div>
 				</div>
-				<div class="col-5">
-					<p>FRONT-END DEVELOPER</p>
-					<button><a href="#portfolio">Learn more</a></button>
-				</div>
-			</div>
-		</section>
-		<!--ABOUT-ME-->
-		<section class="about-me container" id="about-me">
-			<h2>Get to know me</h2>
-			<div class="row position-button">
-				<div class="col-7">
-					<p>Hi! My name is Joanna Kuśmider and I am a front-end developer. I am an ambitious and organized person, interested in new experiences and knowledge. Recently I completed the course, where I developed the knowledge of frontend tools and created the first standalone projects. I believe that my skills, willingness to learn and conscientiousness will help me in accomplishing exciting tasks and professional development.</p>
-				</div>
-				<div class="col-5">
-					<div class="hexagon"></div>
-					<div class="hexagon2"></div>
-					<button><a href="https://joannaku.github.io/about-me/" target="_blank">Learn more</a></button>
-				</div>
-		</section>
-		<!--PORTFOLIO-->
-		<section class="portfolio container" id="portfolio">
-			<div class="row">
-				<div class="col-6">
-					<h2>Portfolio</h2>
-					<h3>Take a look at my portfolio. It includes examples of my latest projects build with HTML, CSS and JavaScript.</h3>
-				</div>
-				<div class="col-6">
-					<div class="row">
-						<div class="col-4 picture picture1">
-							<div class="layer">
-								<button><a href="https://joannaku.github.io/flex-box-properties-demo/" target="_blank">see demo</a></button>
-							</div>
-						</div>
-						<div class="col-4 picture picture2">
-							<div class="layer">
-								<button><a href="https://joannaku.github.io/easy-template-demo/" target="_blank">see demo</a></button>
-							</div>
-						</div>
-						<div class="col-4 picture picture3">
-							<div class="layer">
-								<button><a href="https://joannaku.github.io/picture-perfect-demo/" target="_blank">see demo</a></button>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-4 picture picture4">
-							<div class="layer">
-								<button><a href="https://joannaku.github.io/bootstrap-capabilities-demo/" target="_blank">see demo</a></button>
-							</div>
-						</div>
-						<div class="col-8 picture picture5">
-							<div class="layer">
-								<button><a href="https://joannaku.github.io/lets-tweet-demo/" target="_blank">see demo</a></button>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-4 picture picture6">
-							<div class="layer">
-								<button><a href="https://joannaku.github.io/your-life-demo/" target="_blank">see demo</a></button>
-							</div>
-						</div>
-						<div class="col-4 picture picture7">
-							<div class="layer">
-								<button><a href="https://joannaku.github.io/kanban-board-demo/" target="_blank">see demo</a></button>
-							</div>
-						</div>
-						<div class="col-4 picture picture8">
-							<div class="layer">
-								<button><a href="https://joannaku.github.io/gallows-game-demo/" target="_blank">see demo</a></button>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-8 picture picture9">
-							<div class="layer">
-								<button><a href="https://joannaku.github.io/memory-game-demo/" target="_blank">see demo</a></button>
-							</div>
-						</div>
-						<div class="col-4 picture picture10">
-							<div class="layer">
-								<button><a href="https://joannaku.github.io/rock-paper-scissors-demo/" target="_blank">see demo</a></button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--JUMBOTRON-->
-		<section class="jumbotron" id="stay-in-touch">
-			<h2>Stay in touch</h2>
-			<p>j.kusmider@o2.pl</p>
-			<a href="https://linkedin.com/in/joannakusmider" target="_blank"><i class="fa fa-linkedin"></i></a>
-			<a href="https://github.com/JoannaKu/joannaku.github.io" target="_blank"><i class="fa fa-github-alt"></i></a>
-			<a href="https://www.facebook.com/joanna.kusmider" target="_blank"><i class="fa fa-facebook"></i></a>
-			<div class="triangle"></div>
-			<div class="triangle2"></div>
-		</section>
+			</section>
+
 		<!--FOOTER-->
-		<section class="footer">
-			<p>Copyrights @ Joanna Kuśmider 2017</p>
-		</section>
+			<section class="footer" id="stay-in-touch">
+				<h3>STAY IN TOUCH</h3>
+				<p>kusmiderjoanna@gmail.com</p>
+				<a href="https://linkedin.com/in/joannakusmider" target="_blank"><i class="fa fa-linkedin"></i></a>
+				<a href="https://github.com/JoannaKu/joannaku.github.io" target="_blank"><i class="fa fa-github-alt"></i></a>
+				<a href="https://www.facebook.com/joanna.kusmider" target="_blank"><i class="fa fa-facebook"></i></a>
+			</section>
 	</body>
 </html>
