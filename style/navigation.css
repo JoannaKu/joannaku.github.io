@@ -46,3 +46,32 @@
 .navigation nav ul li a:hover {
     color: #1ebfba;
 }
+
+/* MIN-WIDTH: 768PX AND MAX-WIDTH: 1199PX; */
+@media(min-width: 768px) and (max-width: 1199px) {
+    /* NAVIGATION */
+    .navigation {
+        text-align: center;
+    }
+    .navigation nav ul {
+        float: none;
+        padding: 0;
+    }
+    .navigation nav ul li {
+        display: inline-block;  
+    }
+}
+/* MAX-WIDTH: 767PX; */
+@media (max-width: 767px) {
+    /* NAVIGATION */
+    .navigation {
+        text-align: center;
+    }
+    .navigation nav ul {
+        float: none;
+        padding: 0;
+    }
+    .navigation nav ul li {
+        display: inline-block;  
+    }
+}

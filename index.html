@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Portfolio</title>
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="style/loader.css">
 		<link rel="stylesheet" href="style/navigation.css">
 		<link rel="stylesheet" href="style/style.css">
 	</head>
-	<body>
+	<body onload="loaderFunction()">
+		<!--LOADER-->
+		<div id="loader-body">
+            <div id=loader></div>
+        </div>
+		<div id="myDiv">
+			
 		<!--NAVIGATION-->
 			<section class="navigation">
 				<nav class="container">
@@ -18,10 +26,10 @@
 					</div>
 					<ul>
 						<li><a href="#home">HOME</a></li>
-						<li><a href="https://joannaku.github.io/About-me/" target="_blank">ABOUT-ME</a></li>
-						<li><a href="https://joannaku.github.io/Skills/" target="_blank">SKILLS</a></li>
-						<li><a href="https://joannaku.github.io/Portfolio-projects/" target="_blank">PORTFOLIO</a></li>
-						<li><a href="https://joannaku.github.io/Contact/" target="_blank">STAY IN TOUCH</a></li>
+						<li><a href="https://joannaku.github.io/About-me/">ABOUT-ME</a></li>
+						<li><a href="https://joannaku.github.io/Skills/">SKILLS</a></li>
+						<li><a href="https://joannaku.github.io/Portfolio-projects/">PORTFOLIO</a></li>
+						<li><a href="https://joannaku.github.io/Contact/">STAY IN TOUCH</a></li>
 					</ul>
 				</nav>
 			</section>
@@ -32,7 +40,7 @@
 					<h1>WELCOME TO MY WEBSITE</h1>
 					<h2>Hi, my name is Joanna Kuśmider. I am an ambitious and organized person, interested in new experiences and knowledge. 
 						<br>Topics related to the development of Business Intelligence and the implementation of modern IT solutions to enterprises always seems very interesting to me. During the last year I have been looking for a suitable career path for myself. That's why I decided to try my hand at programming.</h2>
-					<button><a href="https://joannaku.github.io/About-me/" target="_blank">Get to know me</a></button>
+					<button><a href="https://joannaku.github.io/About-me/">Get to know me</a></button>
 				</div>
 				<div class="gallery">
 					<div class="main-picture"></div>
@@ -52,5 +60,7 @@
 				<a href="https://github.com/JoannaKu/joannaku.github.io" target="_blank"><i class="fa fa-github-alt"></i></a>
 				<a href="https://www.facebook.com/joanna.kusmider" target="_blank"><i class="fa fa-facebook"></i></a>
 			</section>
+		</div>
+		<script type="text/javascript" src="js/scripts.js"></script>
 	</body>
 </html>
