@@ -9,7 +9,7 @@ function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("loader-body").style.display = "none";
   document.getElementById("myDiv").style.display = "block";
-  document.getElementById("main-information").style.zindex = "1";
+  document.getElementById("main-information").style.zIndex="1";
 }
 
 	
