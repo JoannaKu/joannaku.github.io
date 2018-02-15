@@ -17,12 +17,11 @@ body {
     padding-left: 255px;
     height: 750px;
 }
-.home .main-information {
+.home #main-information {
     width: 475px;
     position: absolute;
     right: 95px;
     top: 125px;
-    z-index: 1;
 }
 h1 {
     font-family: 'Open Sans', sans-serif;
